@@ -1,0 +1,34 @@
+
+<script type="text/javascript">
+
+$(document).ready(
+	$(".search").submit(function(event) {
+		search($(".searchbar").val());
+
+		return false;
+	})
+);
+
+
+function search(query) {
+	$.getJSON('https://www.googleapis.com/youtube/v3/search', 
+		{ 
+			key: 'AIzaSyC5k1c_K_Oa6wkKI7Lm5yR8kYnuxVebk88', 
+			part: 'snippet', 
+			type: 'video',
+			videoCategoryId: 10,
+			q: query
+		}, 
+		function(data) { 
+
+
+			var html = "<div id='boxes'>" + "<img src = '" + data.items[0].snippet.thumbnails.default.url + "' width = '150' height ='100' style='border:0;' align='left'>";
+			html += "<a href='http://jackyangl03.cloudapp.net/music.php?search=" + data.items[0].id.videoId + "'>" + "<br>" + data.items[0].snippet.title + "</a>"+ data.items[0].snippet.description;
+			html += "</div>";
+			var url = data.items[0].id.videoId;
+			var video = "<iframe width='0' height='0' src='http://www.youtube.com/embed/" + data.items[0].id.videoId +"?autoplay=1'></iframe>";
+//			$('.player').html(video);
+			location.href="music.php?search=" + url;
+		});
+}
+</script>

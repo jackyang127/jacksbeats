@@ -1,0 +1,182 @@
+.navbar-inverse { background-color: #080808;font-size: 20px;}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #595959;font-size: 20px;}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #080808}
+.navbar-inverse { background-image: none; }
+.navbar-inverse { border-color: #080808;font-size: 20px;}
+.navbar-inverse .navbar-brand { color: #999999;font-size: 30px;}
+.navbar-inverse .navbar-brand:hover { color: #FFFFFF;font-size: 30px;}
+.navbar-inverse .navbar-nav>li>a { color: #999999;font-size: 20px; }
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #FFFFFF;font-size: 20px;}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF;font-size: 20px;}
+.greeting {
+  float: right;
+}
+.jumbotron {
+  height: 600px;
+  background-image: url("/images/jumbotron1.jpg");
+  background-size:100%;
+}
+.loginstuff {
+  float: right;
+}
+.navbar-form {
+    border-radius: 100px;
+}
+
+.container {
+  padding: 10px 0px;
+  text-align: center;
+
+}
+.heading {
+  background-color: #808080;
+  opacity: 0.9;
+}
+.active{background-position:0 -46px !important;}
+
+.searchbar {
+  top: 440px;
+  border-radius: 10px;
+  height: 50px;
+  width: 100%;
+  left: 0px;
+  right: 0px;  
+}
+
+.player {
+ bottom: 40px;
+}
+.buffer {
+height: 96px;
+}
+
+.reg_bar {
+  top: 30px;
+}
+.content_1 {
+  height: 250px;
+  length: 585px;
+}
+
+.popular {
+  height 80px;
+}
+.recent {
+  height 80px;
+}
+.subheading {
+  color:#696969;
+  style=font-size:18px;
+  style=font-family:arial,helvetica,sans-serif;
+}
+.listing {
+  height: 110px;
+}
+.boxes {
+  height:100px;
+  text-align:justify;
+  font-size: 12.5px
+
+}
+.viewing {
+  height:110px;
+}
+.thumbnail {
+  width: 100px;
+  height: 100px;
+  border: 0;
+  float: left;
+
+}
+.form-signin {
+        max-width: 600px;
+        padding: 19px 29px 29px;
+        margin: 0 auto 20px;
+        background-color: #fff;
+        border: 2px solid #e5e5e5;
+        -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+  font-size: 20px;
+  height: auto;
+  margin-bottom: 15px;
+  padding: 7px 9px;
+}
+.title {
+  font-size: 20px;
+}
+.videoinfo {
+  border: 3px solid;
+  border-radius: 25px;
+  bottom: 50px;
+}
+.snippetbox {
+  border: 3px solid;
+  border-radius: 25px;
+  bottom: 50px;
+  padding: 15px 0px;
+
+}
+.picture {
+  vertical-align: "middle";
+}
+
+.buffer2 {
+  height: 40px;
+}
+
+.input-group {
+    border-radius: 2px;
+}
+
+.greeting {
+  font-size: 20px;
+}
+.user, .user-music, .friend-feed {
+  height: 700px;
+  top: 135px;
+}
+
+.username, .friendcount {
+  font-size: 20px;
+}
+
+.profilepic {
+  height: 290px;
+  width: 290px;
+}
+.userinfo {
+  text-align: left;
+}
+.friend-heading {
+  font-size: 30px;
+}
+.music-heading {
+  font-size: 30px;
+}
+.user-music {
+  font-size: 12.5px;
+}
+.userbox{
+  top: 135px;
+}
+.comm {
+  top: 115px;
+  font-size: 45px;
+  text-align: left;
+}
+.username-login, .password-login {
+  font-size: 25px;
+
+}
